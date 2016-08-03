@@ -57,7 +57,7 @@ test-unit:
 	$(MOCHA) --reporter $(REPORTER) \
 		test/acceptance/*.js \
 		--growl \
-		test/*.js
+		test/*.spec.js
 
 test-integration:
 	@printf "==> [Test :: Integrations]\n"
